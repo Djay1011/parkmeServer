@@ -15,7 +15,7 @@ public class PaymentController {
 
 	public PaymentController() {
 		// Initialize Stripe with your secret key
-		Stripe.apiKey = "sk_test_...";
+		Stripe.apiKey = "sk_test_51OjOHoCTdoQWDPpqEterXHfQMnrOxluO593psmQ6tLy16kvIXaeYV98zmJmfEIJ2PaC38VTkRT17DRjrnYmB4MyX00l1RtIIWE";
 	}
 
 	@PostMapping("/create-payment-method")
